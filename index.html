@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROBOTICS</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div id="loader">
+      <img src="../images/loader.gif" alt="loader" id="load-img">
+    </div>
+    <div id="marduga">
+    <nav class="nav-bar background" id="hogya">
+      <ul class="nav-list">
+        <div class="logo">
+          <img
+            src="../images/logo.jpg"
+            alt="robo"
+            height="50px"
+          />
+        </div>
+        <li><a href="#home">Home</a></li> 
+        <li><a href="#about">event</a></li>
+        <li><a href="./data.html">register</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      <div class="right-nav">
+        <input type="text" name="search" id="search" />
+        <button class="btn btn-sm">Search</button>
+      </div>
+    </nav> 
+    <section class="background first-section" id="home">
+      <div class="box-main">
+        <div class="firsthalf">
+          <p class="text-big">A WELL TECHNICAL SOCIETY OF MANIT</p>
+          <p class="text-small">
+            This is where you can enhance your skill,you can seek many
+            opportunities .
+            <br/>
+            <b>Robotics is recuriting now so click on register and for further updates follow at instagram</b>
+            <br/>
+            (here I am saving information of students so click on register(backhand js) )
+          </p>
+          <div class="buttons">
+            <button class="btn" onclick="window.location.href = 'https://www.instagram.com/roboticsclubmanit/';" >  Follow at instagram</button>
+            <a href="./data.html"><button class="btn"><b>REGISTER</b></button></a>
+          </div>
+        </div>
+        <div class="secondhalf">\
+            <img src="../images\robotics.jpg" alt="manit photo" height="200px" />
+        </div>
+      </div>
+      
+    </section>
+    <section class="secright" id="about">
+      <div class="firstdiv">
+      <p class="text-big">MAKE-A-THON event by Robotics</p>
+      <hr />
+      <p class="text-small">The chance of realising your potential and proving your worth is here! Making things has never been this feasible. Put on your tool belts, as the creation takes a new plight and the Era of innovation resurrects. Allow your mind to astound and your inner competitor to awaken.
+      </p>
+      </div>
+      <div class="phtodiv">
+        <img src="../images\Screenshot 2023-05-05 015804.png" alt="l" class="work" />
+      </div>
+    </section>
+    <section class="secleft">
+      <div class="phtodiv">
+        <img src="../images\Screenshot 2023-05-05 023103.png" alt="l" class="work" />
+      </div>
+      <div class="seconddiv">
+      <p class="text-big">ROBOFESTIA by Robotics</p>
+      <hr />
+      <p class="text-small">Witness electrifying robot games and showcase your skills against the best. But that's not all - the excitement doesn't end there! With a chance to win some exciting prizes, Robofiesta is the perfect motivation to unleash your inner robotic genius. Real-world simulations of games played in virtual worlds.
+
+      </p>
+      </div>
+      
+      
+    </section>
+    <h2 style="text-align: center;"> And many more events .....</h2>
+    <hr/>
+    
+    <section class="contact" id="contact">
+      <h2  class="cont-head">Contact Us</h2>
+     <div class="form">
+      <input class="input"type="text" name="name" id="name" placeholder="entre your name" >
+      <input class="input"type="text" name="phone" id="phone" placeholder="entre your phone" >
+      <input class="input"type="email" name="email" id="name" placeholder="entre your e-mail" >
+      
+      <textarea class="input"name="text" id="text" cols="30" rows="10" placeholder="elaborate your concern"></textarea>
+      <button class="btn dark">Submit</button>
+
+     </div>
+    </section>
+    <footer >
+      <p class="ending">
+        copyright &copy; 2027 www.robotics_manit.com -All rights reserved 
+      </p>
+    </footer>
+    </div>
+<script>
+  window.onload=function(){
+    document.getElementById('loader').style.display="none";
+    document.getElementById('marduga').style.display="block";
+  }
+</script>
+  </body>
+</html>
